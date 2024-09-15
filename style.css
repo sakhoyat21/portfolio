@@ -1,0 +1,268 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul{
+    list-style: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+nav{
+    padding: 20px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+.nav_main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul {
+    display: flex;
+}
+.menu ul li a {
+    padding: 15px 20px;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.menu ul li:last-child a {
+    background-color: #FD6E0A;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+#banner {
+    background-color: #FFF8F3;
+    padding: 250px 0;
+    position: relative;
+   
+}
+.banner_text h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    
+}
+.banner_text h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+.banner_text p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    width: 585px;
+   
+    
+}
+.ban {
+    padding-top: 20px;
+}
+.ban a{
+    padding: 18px 17px;
+    
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+  
+    border: 2px solid #FD6E0A;
+    transition: 0.5s;
+}
+.ban i {
+    padding-right: 7px;
+}
+.ban :hover{
+   background-color: #FD6E0A; 
+   border: 2px solid transparent;
+}
+.man {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.sun {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#about {
+    height: 550px;
+    padding-top: 130px;
+    padding-bottom: 30px;
+    font-family: "Open Sans", sans-serif;
+
+}
+.about_main  {
+    background-color:#FFF8F3;
+    padding: 131px 250px;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+
+.about_main p {
+    padding-top: 20px;
+}
+
+.about_inner {
+    display: flex;
+    justify-content: space-between;
+    margin: auto -95px;
+    font-size: 16px;
+    padding: 73px 8px;
+}
+.info {
+    text-align: center;
+    padding: 70px 75px;
+    
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+
+}
+.info p {
+    padding: 20px 60px;
+   
+
+}
+.info_inner {
+    width: 1000px;
+    display: flex;
+   justify-content: space-between;
+   font-size: 16px;
+    padding-top: 35px;
+    padding-right: 50px;
+    box-sizing: border-box;
+ 
+ 
+}
+ .info_item1 {
+    background-color: rgb(244, 244, 244);
+    padding: 25px;
+    margin: 0px 20px;
+   
+ }
+ 
+ .info_item2 {
+    background-color:rgb(244, 244, 244);
+    padding: 25px;
+    margin: 0px 20px;
+ }
+ .info_item3 {
+    background-color:rgb(244, 244, 244);
+    padding: 25px;
+    margin: 0px 20px;
+ }
+ .info_item4 {
+    background-color: rgb(244, 244, 244);
+    padding: 25px;
+    margin: 0px 20px;
+ }
+
+.info_item1 p {
+
+    padding: 10px 15px;
+   
+    
+}
+.info_item2 p {
+
+    padding: 20px 15px;
+    
+}
+.info_item3 p {
+
+    padding: 10px 15px;
+    
+}
+.info_item4 p {
+
+    padding: 10px 15px;
+    
+}
+.info_item i {
+ size: 50px;
+}
+.resume h2 {
+    padding-top: 100px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+.resume_inner {
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
+    
+}
+.resume_1 {
+    margin-right: 20px;
+}
+.resume_2 {
+    margin-left: 20px;
+}
+.button_1 {
+    padding-top: 30px;
+    text-align: center;
+    
+}
+.button_1 a {
+    padding: 18px 17px;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(252, 252, 252);
+  
+    
+}
+#banner_2 {
+    background-color: #FFF8F3;
+    margin: 100px 0;
+    position: relative;
+    height: 780px;
+    
+   
+    
+
+}
+.contact {
+    padding-top: 200px;
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+ ;
+}
+.social {
+    margin-right: 20px;
+}
+.social p {
+    width: 562px;
+   
+}
+.message {
+    margin-left: 85px;
+}
+button {
+    height: 50px;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none
+   
+
+}
